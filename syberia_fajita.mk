@@ -26,6 +26,7 @@ $(call inherit-product, vendor/syberia/common.mk)
 
 # Syberia OS Stuff
 TARGET_BOOT_ANIMATION_RES := 1080
+SYBERIA_BUILD_TYPE := OFFICIAL
 
 PRODUCT_NAME := syberia_fajita
 PRODUCT_DEVICE := fajita
