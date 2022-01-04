@@ -28,5 +28,8 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 # UDFPS
 TARGET_SURFACEFLINGER_UDFPS_LIB := //$(DEVICE_PATH):libudfps_extension.oneplus_fajita
 
+# TWRP
+TARGET_PREBUILT_RECOVERY_RAMDISK := $(DEVICE_PATH)/ramdisk-recovery.zip
+
 # inherit from the proprietary version
 -include vendor/oneplus/fajita/BoardConfigVendor.mk
